@@ -234,3 +234,47 @@ background-color: #ec3000 ;
     font-size: 1.5rem;
    }
 }
+
+
+/* input */
+
+.input{
+padding: 1.5rem 3.5rem;
+border: 1px solid #ccc;
+border-radius: 30px;
+outline: 0;
+color: var(--color-heading);
+}
+
+::placeholder{
+    color: #cdcbd7;
+    font-size: 2rem;
+}
+
+.input-group{
+
+    border: 1px solid #ccc;
+border-radius: 30px;
+display: flex;
+}
+
+
+.input-group .input{
+
+   border: 0;
+   flex-grow: 1;
+padding: 1.5rem 1rem;
+}
+
+.input-group .btn{
+ margin: 4px;
+ }
+
+@media screen and ( min-width: 1024px) 
+{
+   .input{
+    font-size: 1.5rem;
+   }
+}
+
+
