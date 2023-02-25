@@ -14,25 +14,188 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"> 
 
 </head>
-<body>
-<div class="container">
-    <div class="callout callout--primary">
-        <div class="grid grid--1x2">
-        <div class="callout--content ">
+<body>  
 
-            <h2 class="h2-content">ready to get started? </h2>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat quidem commodi obcaecati, id quia blanditiis harum ducimus beatae cupiditate, in doloribus exercitationem magni corrupti corporis optio suscipit placeat cum?</p>
+    <nav class="nav collapsible collapsible-expands">
+
+        <a class="logo-name" href="/"><img src="picture/icons8-duolingo-logo-40.png" ></a>
+    
+        <a href="#"> <img class="nav--icon" src="picture/icons8-bullet-list-40 (1).png" alt=""></a>
+    
+        <ul class="list nav--list collaspsible-content">
+            <li class="nav--item" ><a href="#">hosting</a></li> 
+            <li class="nav--item"><a href="#">Vps</a></li> 
+            <li class="nav--item"><a href="#">domain</a></li> 
+            <li class="nav--item"><a href="#">pricing</a></li> 
+    
+        </ul>
+    </nav>
+    
+    <section class="block block--dark block--skwed--left hero">
+
+            
+        <div class="container grid grid--1x2">
+    
+    <header class=" black--header hero--content">
+        <h1 class="h1-content">Cloud Hosting for Pros</h1>
+        <p class="hero-p">Deploy your websites in less than 60 seconds.</p>
+        <button class="btn btn--accent btn--stretched">get started</button>
+    </header>
+    <img class="hero-image  " src="picture/banner.png" alt="">
+</div>
+    </section>
+
+
+
+
+    <section class="block container block-domain">
+        <header class="block-heading">
+            <h2>Starting at $9 per month </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, exercitationem? </p>
+            
+        </header>
+        <div class="input-group">
+            <input type="text" class="input" placeholder="eneter domain name here">
+            <button class="btn btn--accent btn-search"><img src="picture/icons8-search-30.png" alt=""> search </button>
+        </div>
+     
+        <ul class="list domain-pricing">
+
+            <li> <span class="badge badge--secondary" >.com $9</span> </li>
+            <li>.sg $10</li>
+            <li>.space $11</li>
+            <li>.info $14</li>
+            <li>.net $10</li>
+            <li>.xyz $10</li>
+        </ul>
+    </section>
+
+
+
+<section class="block container block-plans">
+
+    <div class="grid grid--1x3">
+
+        <div class="plan ">
+            <div class="card card--secondary">
+        
+        <header class="card-header">
+        
+        <img src="" alt="">
+        
+        <h3 class="plan-name">Entry</h3>
+        
+        <span class="plan-price">$14</span>
+        
+        <span class="plan-cycle">/month</span>
+        
+        <span class="badge badge--secondary badge--small">10% off</span>
+        
+        
+        <span class="description">Easy start on the cloud</span>
+        
+        </header>
+        
+        <div class="card-body">
+        
+            <ul class="list lsit--tick ">
+                <li class="list__item">Unlimited Websites</li>
+                <li class="list__item">Unlimited Bandwidth</li>
+                <li class="list__item">100 GB SSD Sotrage</li>
+                <li class="list__item">3 GB RAM</li>
+            </ul>
+        <button class="btn btn--block btn--outline" >BUY NOW</button>
+        </div>
+        
+            </div>
 
     </div>
-<div class="btn--callout">
-    <buuton class="btn btn--secondary btn--stretched">get started</buuton>
+    
+<div class="plan plan--popular">
+    <div class="card card--primary">
+
+<header class="card-header">
+
+<img src="" alt="">
+
+<h3 class="plan-name">Entry</h3>
+
+<span class="plan-price">$14</span>
+
+<span class="plan-cycle">/month</span>
+
+<span class="badge badge--primary badge--small">10% off</span>
+
+
+<span class="description">Easy start on the cloud</span>
+
+</header>
+
+<div class="card-body">
+
+    <ul class="list lsit--tick ">
+        <li class="list__item">Unlimited Websites</li>
+        <li class="list__item">Unlimited Bandwidth</li>
+        <li class="list__item">100 GB SSD Sotrage</li>
+        <li class="list__item">3 GB RAM</li>
+    </ul>
+<button class="btn btn--block btn--outline" >BUY NOW</button>
 </div>
 
+    </div>
+
+    
 </div>
 
+<div class="plan">
+    <div class="card card--secondary">
+
+<header class="card-header">
+
+<img src="" alt="">
+
+<h3 class="plan-name">Entry</h3>
+
+<span class="plan-price">$14</span>
+
+<span class="plan-cycle">/month</span>
+
+<span class="badge badge--secondary badge--small">10% off</span>
+
+
+<span class="description">Easy start on the cloud</span>
+
+</header>
+
+<div class="card-body">
+
+    <ul class="list lsit--tick ">
+        <li class="list__item">Unlimited Websites</li>
+        <li class="list__item">Unlimited Bandwidth</li>
+        <li class="list__item">100 GB SSD Sotrage</li>
+        <li class="list__item">3 GB RAM</li>
+    </ul>
+<button class="btn btn--block btn--outline" >BUY NOW</button>
 </div>
 
-</div>
+    </div>
 
+    
+</div>
+</section>
+
+
+
+
+
+
+    <script>
+        const collapsible = document.querySelectorAll(".collapsible");
+        collapsible.forEach((item) =>
+  item.addEventListener("click", function () {
+    this.classList.toggle("collapsible-expands");
+  })
+);
+    </script>
 </body>
 </html>
