@@ -134,7 +134,6 @@ padding: 0.5rem 1.5rem;
 .list{
     list-style: none;
     padding-left: 0;
-    color: var(--color-heading);
 }
 
 
@@ -148,6 +147,7 @@ padding: 0.5rem 1.5rem;
 .lsit--tick{
     list-style-image: url(../picture/icons8-done-10.png);
     padding-left: 3rem;
+    color: var(--color-heading);
 
 }
 
@@ -410,6 +410,7 @@ right: 5%;
 
 .media{
     display: flex  ;
+    margin-bottom: 4rem;
 }
 
 .media--body{
@@ -427,7 +428,7 @@ right: 5%;
 }
 
 .media-tilte{
-
+ color: white;
     margin: 0;
     
 }
@@ -454,7 +455,7 @@ right: 5%;
 .qutoe--author{
     font-style: normal;
     font-weight: 500;
-
+    color: var(--color-heading);
 }
 .company{
     color: var(--color-heading);
@@ -515,7 +516,10 @@ font-style: noraml;
     position: relative;
 
 }
+.board {
+    box-shadow: 0 0 30px 20px #e6ebee;
 
+}
 
 .test--icon{
 position: absolute;
@@ -598,10 +602,12 @@ padding-right: 6rem;
 .collaspsible-header{
     display: flex;
     justify-content: space-between;
+
 }
 .h2-collaps{
 font-size: 3rem;
     margin: 0;
+    color: white;
 }
 
 .icon-collaps{
@@ -852,3 +858,116 @@ width: 1000px;
 max-width: 350px;   
 margin: 0 auto;
 }
+
+/* feature */
+.img1{
+    border-radius: 30px;
+
+}
+
+.feature{
+    gap: 4rem 4rem;
+    margin: 6rem;
+}
+
+.feature-heading{
+    margin: 1rem 0;
+}
+
+.feature-img{
+    width: 100%;
+}
+
+
+/* showcase block */
+.i-img{
+    width: 100%;
+}
+
+@media screen and ( min-width: 768px) 
+{
+    .block-showcase .grid{
+
+         grid-template-columns: 50% 50%;
+    }
+    .i-img{
+        width: auto;
+        max-width: 700px;
+        justify-self: end ;
+    }
+    
+ 
+    }
+
+
+    /* footer */
+
+    .footer{
+        background-color: #232323;
+    }
+
+
+    .footer-section{
+        padding: 2rem;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .footer-header{
+    text-transform: uppercase;
+    font-weight: bold;    
+    }
+
+    .footer--logo{
+        margin-top: 5rem ;
+        text-align: center;
+    }
+
+    .footer a{
+        color: #ccc;
+
+    }
+
+    .footer a:hover{
+        color: white;
+        transition: 0.3s;
+    }
+
+
+    .footer-copyright{
+        font-size: 2rem;
+        color: white;
+        opacity: 0.3;
+    }
+
+    .footer .list{
+        margin: 0 4rem;
+    }
+
+    .footer .h2-collaps{
+        margin: 0 4rem;
+    }
+@media screen and ( min-width: 768px) 
+{
+    
+    .footer .container{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        
+    }
+    
+    .icon-collaps{
+        display: none;
+    }
+    .footer--logo{
+        order: -1;
+        margin-top: 1rem;
+
+    }
+
+    .footer-section{
+        border: 0;
+    }
+
+    .footer-header{
+        font-size: 1.6rem;
+    }
+    }
