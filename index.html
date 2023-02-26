@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
+    <title>moshify - go online for just 9$ </title>
+<meta name="description" content="deploy your website in less than 60seconed">
+<meta property="og:title"  content="moshify">
+<meta property="og:description"  content="moshify">
+<meta property="og:type"  content="website">
+<meta property="og:image"  content="http://">
+<meta property="og:url"  content="https://www.moshified.com/">
 
 <link rel="stylesheet" href="css/noramlized.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"> 
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 <body>  
@@ -55,7 +63,7 @@
 <!-- search -->
 
 
-    <section class="block container block-domain">
+    <section class="block container block-domain" data-aos="fade-up">
         <header class="block-heading">
             <h2>Starting at $9 per month </h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, exercitationem? </p>
@@ -81,7 +89,7 @@
 <!-- card 1 -->
 
 
-<section class="block container block-plans">
+<section class="block container block-plans " data-aos="fade-up">
 
     <div class="grid grid--1x3">
 
@@ -212,7 +220,7 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, voluptatem.</p>
     </header>
 <article class="container grid grid--1x2 feature">
-    <header>
+    <header data-aos="fade-right">
         <img class="img1" src="picture/icons8-recieve-50.png" alt="">
     
         <h3 class="feature-heading">super easy to use</h3>
@@ -220,21 +228,21 @@
         <a href="#" class="link-arrow">learn more</a>
 
     </header>
-    <img class="feature-img" src="picture/easy@2x.jpg" alt="">
+    <img data-aos="zoom-in-left" class="feature-img" src="picture/easy@2x.jpg" alt="">
 </article>
 
 
 <!-- section 2  -->
 
 
-<article class="container grid grid--1x2 feature">
+<article class="container grid grid--1x2 feature" >
 
         <img class="feature-img" src="picture/fast.jpg" alt="">
         
-    <header>
+    <header data-aos="slide-left">
         <img class="img1" src="picture/icons8-macbook-60.png" alt="">
     
-        <h3 class="feature-heading">Simply Fast Websites        </h3>
+        <h3 class="feature-heading" >Simply Fast Websites        </h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam obcaecati vel ad unde est illo at. Labore excepturi officia dolores!</p>
         <a href="#" class="link-arrow">learn more</a>
 
@@ -249,7 +257,7 @@
     <article class="container grid grid--1x2 feature">
 
         
-    <header>
+    <header data-aos="zoom-in-left">
         <img class="img1" src="picture/icons8-wordpress-60.png" alt="">
     
         <h3 class="feature-heading">Wordpress Made Easy</h3>
@@ -269,9 +277,9 @@
 
 <article class="container grid grid--1x2 feature">
 
-        <img class="feature-img" src="picture/support.jpg" alt="">
+        <img data-aos="zoom-in" class="feature-img" src="picture/support.jpg" alt="">
         
-    <header>
+    <header data-aos="zoom-in">
         <img class="img1" src="picture/icons8-alarm-clock-64.png" alt="">
     
         <h3 class="feature-heading">24/7 Expert Support</h3>
@@ -300,9 +308,9 @@
 
     <div class="container grid grid--1x2" >
 
-        <img class="i-img" src="picture/ipad.png" alt="">
+        <img data-aos="slide-right" class="i-img" src="picture/ipad.png" alt="">
        
-        <ul class="list" >
+        <ul class="list" data-aos="slide-up" >
             <li> 
                 <div class="media">
         
@@ -354,7 +362,7 @@
 
 
 
-<section class="block">
+<section class="block" data-aos="zoom-in">
 <header class="block-heading black--header">
     <h2 class="block-heading">What our Customers are Saying    </h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, culpa.</p>
@@ -369,7 +377,6 @@
             <div class="testimonial--image">
         
         <img class="test--image" src="picture/testimonial.ad9df737.jpg" >
-        <img class="test--icon" src="picture/icons8-comma-64.png" alt="">
         </div>
         
         <div>
@@ -403,82 +410,100 @@
 </section>
 
 
+<section class="ready-card">
+<div class="container">
+    <div class="callout callout--primary">
+        <div class="grid grid--1x2">
+        <div class="callout--content ">
 
+            <h2 class="h2-content">ready to get started? </h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat quidem commodi obcaecati, i</p>
 
+    </div>
+<div class="btn--callout">
+    <buuton class="btn btn--secondary btn--stretched">get started</buuton>
+</div>
 
+</div> 
+
+</div>
+
+</div>
+
+</section>
 
 <!-- footer -->
 
 
 
-        <footer class="block block--dark footer">
-            
-            <div class="container grid">
+<footer class="block block--dark footer">
 
-            <section class="collapsible collapsible-expands footer-section">
-                <header class="collaspsible-header footer-header">
-                <h2 class="h2-collaps">PRODUCTS</h2>
-                <img class="icon-collaps"    src="picture/icons8-chevron-right-40.png">
-                </header>
-                <div class="collaspsible-content">
-                    <ul class="list">
+<div class="container grid">
 
-                        <li><a href="#">Website Hosting</a></li>
-                        <li><a href="#">Free Automated </a></li>
-                        <li><a href="#">Migrations </a></li>
-                    </ul>
-                </div>
-                    </section>
-                
-            
-                    <section class="collapsible  footer-section">
-                        <header class="collaspsible-header footer-header">
-                        <h2 class="h2-collaps">COMPANY</h2>
-                        <img class="icon-collaps"    src="picture/icons8-chevron-right-40.png">
-                        </header>
-                        <div class="collaspsible-content">   <ul class="list">
+<section class="collapsible collapsible-expands footer-section">
+    <header class="collaspsible-header footer-header">
+    <h2 class="h2-collaps">PRODUCTS</h2>
+    <img class="icon-collaps"    src="picture/icons8-chevron-right-40.png">
+    </header>
+    <div class="collaspsible-content">
+        <ul class="list">
 
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Affiliates</a></li>
-                            <li><a href="#">Blog </a></li>
-                        </ul></div>
-                            </section>
-                        
+            <li><a href="#">Website Hosting</a></li>
+            <li><a href="#">Free Automated </a></li>
+            <li><a href="#">Migrations </a></li>
+        </ul>
+    </div>
+        </section>
+    
+
+        <section class="collapsible  footer-section">
+            <header class="collaspsible-header footer-header">
+            <h2 class="h2-collaps">COMPANY</h2>
+            <img class="icon-collaps"    src="picture/icons8-chevron-right-40.png">
+            </header>
+            <div class="collaspsible-content">   <ul class="list">
+
+                <li><a href="#">About</a></li>
+                <li><a href="#">Affiliates</a></li>
+                <li><a href="#">Blog </a></li>
+            </ul></div>
+                </section>
+
+
+<section class="collapsible footer-section">
+    <header class="collaspsible-header footer-header">
+    <h2 class="h2-collaps">SUPPORT</h2>
+    <img class="icon-collaps"    src="picture/icons8-chevron-right-40.png">
+    </header>
+    <div class="collaspsible-content"><ul class="list">
+
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Knowledge Base</a></li>
+        <li><a href="#"FAQ </a></li>
+    </ul></div>
+        </section>
+    
+        <section class="collapsible  footer-section">
+            <header class="collaspsible-header footer-header">
+            <h2 class="h2-collaps">DOMAINS</h2>
+            <img class="icon-collaps"    src="picture/icons8-chevron-right-40.png">
+            </header>
+            <div class="collaspsible-content">   <ul class="list">
+
+                <li><a href="#">Domain Checker</a></li>
+                <li><a href="#">Domain Transfer</a></li>
+                <li><a href="#">Free Domain</a></li>
+            </ul></div>
+                </section>
                     
-                            <section class="collapsible footer-section">
-                                <header class="collaspsible-header footer-header">
-                                <h2 class="h2-collaps">SUPPORT</h2>
-                                <img class="icon-collaps"    src="picture/icons8-chevron-right-40.png">
-                                </header>
-                                <div class="collaspsible-content"><ul class="list">
+        
+<section class="footer--logo" >
+<img src="picture/logo.762e26a3.png" alt="">
+<p class="footer-copyright" >copyright 2020 joe</p>
+</section>
+</div>
 
-                                    <li><a href="#">Contact</a></li>
-                                    <li><a href="#">Knowledge Base</a></li>
-                                    <li><a href="#"FAQ </a></li>
-                                </ul></div>
-                                    </section>
-                                
-                                    <section class="collapsible  footer-section">
-                                        <header class="collaspsible-header footer-header">
-                                        <h2 class="h2-collaps">DOMAINS</h2>
-                                        <img class="icon-collaps"    src="picture/icons8-chevron-right-40.png">
-                                        </header>
-                                        <div class="collaspsible-content">   <ul class="list">
-                
-                                            <li><a href="#">Domain Checker</a></li>
-                                            <li><a href="#">Domain Transfer</a></li>
-                                            <li><a href="#">Free Domain</a></li>
-                                        </ul></div>
-                                            </section>
-                                                
-                                    
-                    <section class="footer--logo" >
-                        <img src="picture/logo.762e26a3.png" alt="">
-                        <p class="footer-copyright" >copyright 2020 joe</p>
-                    </section>
-            </div>
-
-        </footer>
+</footer>
 
 
 
@@ -500,6 +525,10 @@
     this.classList.toggle("collapsible-expands");
   })
 );
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 </body>
 </html> 
